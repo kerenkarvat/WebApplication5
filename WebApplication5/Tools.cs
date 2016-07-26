@@ -42,7 +42,7 @@ namespace WebApplication5.Tools
                 using (var xmlWriter = XmlWriter.Create(stringWriter, new XmlWriterSettings { Indent = true }))
                 {
                     xmlSerializer.Serialize(xmlWriter, value);
-                    return stringWriter.ToString();
+                    return stringWriter.ToString(); 
                 }
             }
         }
