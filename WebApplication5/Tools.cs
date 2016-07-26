@@ -44,7 +44,7 @@ namespace WebApplication5.Tools
                     xmlSerializer.Serialize(xmlWriter, value);
                     return stringWriter.ToString();  
                 }
-            } 
+            }  
         }
     }
 
